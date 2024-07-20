@@ -1,0 +1,52 @@
+{
+    "title": "Appetizers",
+    "subMenu": [
+        {
+            "title": "indian flavours",
+            "content": [
+                {
+                    "name": "Samosas",
+                    "desc": "Crispy pastry filled with spiced potatoes and peas."
+                },
+                {
+                    "name": "Paneer Tikka",
+                    "desc": "Grilled cottage cheese marinated in spices."
+                },
+                {
+                    "name": "Aloo Chaat",
+                    "desc": "Spicy and tangy potato salad."
+                }
+            ]
+        },
+        {
+            "title": "italian flavours",
+            "content": [
+                {
+                    "name": "Bruschetta",
+                    "desc": "Toasted bread topped with tomatoes, basil, and olive oil."
+                },
+                {
+                    "name": "Caprese Salad",
+                    "desc": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic reduction."
+                },
+                {
+                    "name": "Arancini",
+                    "desc": "Deep-fried rice balls stuffed with cheese."
+                }
+            ]
+        },
+        {
+            "title": "indo-italian fusion",
+            "content": [
+                {
+                    "name": "Masala Risotto Balls",
+                    "desc": "Risotto balls infused with Indian spices and served with a yogurt dip."
+                },
+                {
+                    "name": "Paneer Bruschetta",
+                    "desc": "Grilled paneer on toasted bread with a hint of Indian spices."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,314 @@
+.playwrite-hu-elegant {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: white;
+    font-family: "Playwrite HU", cursive; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.pageContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header {
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.headerText {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 24%;
+}
+
+.tabButton {
+    font-size: x-large;
+}
+
+.subPageContainer {
+    border: solid 1px black;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    margin: 2%;
+}
+
+.aboutPageContainer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPageContent {
+    width: 90%;
+    height: 90%;
+    padding-top: 5%;
+}
+
+.aboutPageContentSpanContainer {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutPageHeading {
+    position: relative;
+    right: 1;
+}
+
+.contentContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutPageContainer {
+    flex-grow: 1;
+}
+
+.menuPageContainer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuPageFooter {
+    position: relative;
+    top: 5%;
+}
+
+.menuPageContent {
+    height: 100%;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menuPageContentSpanContainer {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.leftContainer {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows {
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    border: solid 1px transparent;
+    transition: border 1s;
+}
+
+.arrows:hover {
+    border: solid 1px black;
+}
+
+.mainContent {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subListContainer {
+    font-style: italic;
+}
+
+.menuPageHeading {
+    margin: auto;
+    font-size: larger;
+}
+
+.listContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.itemType {
+    font-size: large;
+    margin: auto;
+}
+
+.itemTypeHeader {
+    font-size: x-large;
+    margin: auto;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin-left: 10%;
+}
+
+.itemName { 
+    margin-left: 20%;
+}
+
+.itemDesc {
+    font-size: x-small;
+    margin-left: 22%;
+}
+
+.menuPageLink {
+    background-color: transparent;
+    position: relative;
+    left: 90%;
+    bottom: 5%;
+    font-size: large;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .subPageContainer {
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .menuPageContainer {
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .aboutPageContainer {
+        overflow-y: scroll;
+
+    }
+
+    .menuPageLink {
+        position: relative;
+        height: fit-content;
+    }
+
+    .menuPageContent {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .menuPageFooter {
+        position: absolute;
+    }
+
+    .item {
+        margin-bottom: 5px;
+    }
+
+    .itemType {
+        margin-left: 10%;
+    }
+
+    .itemName { 
+        margin-left: 0;
+    }
+    
+    .itemDesc {
+        font-size: x-small;
+        margin-left: 0;
+    }
+
+    .arrows:hover {
+        border: solid 1px transparent;
+    }
+
+    .headingContainer {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+    }
+
+    .listContainer {
+        padding-top: 30%;
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: none;
+    }
+
+    .aboutPageHeading {
+        position: absolute;
+    }
+
+    .itemTypeHeader {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .aboutPageContentSpanContainer {
+        padding-top: 5%;
+    }
+ }

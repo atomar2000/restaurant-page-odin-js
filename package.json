@@ -1,0 +1,40 @@
+{
+  "name": "restaurant-page-odin",
+  "version": "1.0.0",
+  "description": "this is a odin js project for a restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no script defined'",
+    "build": "webpack",
+    "clean:watch": "rm -r ./dist/* && webpack --watch",
+    "watch": "webpack --watch",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomar2000/restaurant-page-odin-js.git"
+  },
+  "keywords": [
+    "restaurant",
+    "page",
+    "practice",
+    "js",
+    "practice"
+  ],
+  "author": "Anurag Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomar2000/restaurant-page-odin-js/issues"
+  },
+  "aboutPage": "https://github.com/atomar2000/restaurant-page-odin-js#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "express": "^4.19.2",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^7.2.1"
+  }
+}

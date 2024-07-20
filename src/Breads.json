@@ -1,0 +1,39 @@
+{
+    "title": "Breads",
+    "subMenu": [
+        {
+            "title": "indian breads",
+            "content": [
+                {
+                    "name": "Naan",
+                    "desc": "Soft, fluffy bread baked in a tandoor."
+                },
+                {
+                    "name": "Roti",
+                    "desc": "Whole wheat flatbread cooked on a griddle."
+                },
+                {
+                    "name": "Paratha",
+                    "desc": "Layered flatbread, can be stuffed with potatoes or paneer."
+                }
+            ]
+        },
+        {
+            "title": "italian breads",
+            "content": [
+                {
+                    "name": "Focaccia",
+                    "desc": "Olive oil-rich flatbread with herbs."
+                },
+                {
+                    "name": "Ciabatta",
+                    "desc": "Rustic bread with a crispy crust and airy interior."
+                },
+                {
+                    "name": "Garlic Bread",
+                    "desc": "Toasted bread with garlic and herbs."
+                }
+            ]
+        }
+    ]
+}
